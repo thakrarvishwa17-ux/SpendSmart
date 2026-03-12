@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Spendsmart</title>
+    <link rel="stylesheet"
+href="style.css">
+</head>    
+<body>
+    <h1>spendsmart</h1>
+    <p>your personal finance tracker</p>
+    <h2 id="total"> total spent:₹0 </h2>
+    <input type="number" id="amount"
+    placeholder="enter amount">
+    <input type="text" id="reason"
+    placeholder="enter reason">
+      <br><br>
+        <button onclick="addExpense()">ADD Expense</button>
+        <button onclick="clearExpense()"> CLEAR ALL</button>
+        <ul id="list"></ul>
+        <script src="script.js"></script>
+</body>
+</html>
